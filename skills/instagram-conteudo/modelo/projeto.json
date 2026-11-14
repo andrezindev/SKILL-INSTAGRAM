@@ -1,0 +1,13 @@
+{
+  "slug": "{{slug}}",
+  "nome": "{{nome}}",
+  "tipo": "{{tipo}}",
+  "site": "{{site}}",
+  "instagram": "",
+  "idioma": "pt-BR",
+  "saida": "{{saida}}",
+  "stories_por_dia": 6,
+  "posts_por_dia": 3,
+  "reels_por_vez": 3,
+  "observacoes": ""
+}

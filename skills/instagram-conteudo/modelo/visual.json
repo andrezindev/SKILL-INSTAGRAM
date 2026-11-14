@@ -1,0 +1,15 @@
+{
+  "wordmark": { "a": "{{nome}}", "b": "" },
+  "logo": "",
+  "fontes": {
+    "titulo": "Bricolage Grotesque",
+    "texto": "Plus Jakarta Sans",
+    "google": "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Plus+Jakarta+Sans:wght@500;700;800&display=swap"
+  },
+  "temas": {
+    "escuro": { "bg": "#141414", "fg": "#F5F5F5", "mut": "#BDBDBD", "acc": "#4F8CFF", "card": "rgba(255,255,255,.08)", "line": "rgba(255,255,255,.2)", "btnBg": "#4F8CFF", "btnFg": "#0B0B0B" },
+    "cor":    { "bg": "linear-gradient(135deg,#4F8CFF,#7A5CFF)", "fg": "#FFFFFF", "mut": "#E3E6FF", "acc": "#0B0B0B", "card": "rgba(0,0,0,.16)", "line": "rgba(0,0,0,.3)", "btnBg": "#0B0B0B", "btnFg": "#FFFFFF" },
+    "claro":  { "bg": "#F6F6F3", "fg": "#141414", "mut": "#666666", "acc": "#3B6FE0", "card": "rgba(0,0,0,.05)", "line": "rgba(0,0,0,.18)", "btnBg": "#3B6FE0", "btnFg": "#FFFFFF" }
+  },
+  "ordem_temas": ["escuro", "cor", "claro"]
+}

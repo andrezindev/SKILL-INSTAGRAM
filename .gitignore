@@ -1,0 +1,7 @@
+node_modules/
+_html/
+*.log
+.DS_Store
+Thumbs.db
+# dados de projetos nunca entram neste repositório
+conteudo/
