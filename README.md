@@ -20,14 +20,14 @@ Requisitos: Claude Code, Node 18+, Google Chrome (modo rápido de imagens). Para
 
 **Windows (PowerShell):**
 ```powershell
-git clone <URL-DO-REPOSITORIO> skills-instagram
-cd skills-instagram
+git clone https://github.com/andrezindev/SKILL-INSTAGRAM.git SKILL-INSTAGRAM
+cd SKILL-INSTAGRAM
 powershell -ExecutionPolicy Bypass -File install.ps1
 ```
 **macOS / Linux:**
 ```bash
-git clone <URL-DO-REPOSITORIO> skills-instagram
-cd skills-instagram
+git clone https://github.com/andrezindev/SKILL-INSTAGRAM.git SKILL-INSTAGRAM
+cd SKILL-INSTAGRAM
 bash install.sh
 ```
 O instalador copia as duas skills para `~/.claude/skills/` e cria `~/.claude/conteudo/`. Abra uma **conversa nova** no Claude Code para os comandos aparecerem.
