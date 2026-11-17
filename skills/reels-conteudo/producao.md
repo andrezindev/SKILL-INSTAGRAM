@@ -31,6 +31,8 @@ Pode combinar: A ou B + D.
 
 ## Caminho C · Kit de gravação
 Entregue `kit-gravacao.md` por reel: lista de takes (plano, duração, o que mostrar), fala palavra por palavra, texto de tela por take, enquadramento (vertical, olho no nível da câmera, fundo limpo), luz (janela ou luz frontal), áudio (microfone de lapela ou local silencioso), ordem de gravação mais eficiente, tempo estimado e checklist de edição (cortes a cada 2 a 3 s, legendas, trilha em baixo volume, CTA).
+Gere também o teleprompter (`node SK/scripts/teleprompter.mjs <pasta>/reels.json <n>`). Dica para quem grava: se errar, pare 2 segundos e repita a frase inteira; a edição fica com o último take.
+Depois que a pessoa gravar, **edite com a skill `editar-video`** passando o `reels.json` e o número do reel (textos de tela viram títulos e callouts, o CTA vira a tela final). Não precisa fazer o brainstorming de novo: o roteiro já responde.
 
 ## Caminho D · Locução, trilha e efeitos (serve a A, B e vídeos já prontos)
 1. **Texto de locução:** do `roteiros.md` (bloco corrido). Peça à pessoa para gerar **um arquivo só** no ElevenLabs, com pausa curta entre frases, num tom animado. Dica: ela pode gerar com a voz que já usa no projeto.
